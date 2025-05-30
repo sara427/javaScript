@@ -1,0 +1,42 @@
+
+#quote {
+  min-height: 100px;
+  transition: all 0.3s ease;
+  font-size: 8rem;
+  display: block;
+  color: black;
+}
+h1 {
+    font-size: 10rem; 
+    font-family: Impact;
+    font-weight: bold;
+    margin-top: 300px; 
+    text-align: center;
+    color: black;
+}
+.custom-btn {
+  background-color: blue;
+  color: white;
+  border: 3px solid black;  
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border-radius: 8px;        
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: green;   
+}
+#quote {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#quote.show {
+  opacity: 1;
+}
+
+
+
+
